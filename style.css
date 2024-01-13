@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid brown;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    /* grid-gap: 10px; */
+ /* justify content aligns along horizontal axis .values can be start,end,center,space around,space between,space evenly*/
+/* align items aligns along cross axis,has strech value by defult.values can be start,end,baseline */
+/* align-items: start; */
+/* align content decides spacing between rows along vertical axis */
+/* align-content: space-between; */
+/* place content is shorthand for align content and justify content */
+
+/* place-content: center; */
+/* place item is shorthand for align items and justify items */
+place-items: center;
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+#box1{
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+    /* align-self: center; */
+}
